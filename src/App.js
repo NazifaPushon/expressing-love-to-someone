@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="App bg-pink-100 h-screen ">
     <Routes>
       <Route path="/" element={<Home />} />
     </Routes>
